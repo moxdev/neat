@@ -970,4 +970,14 @@ object {
   display: block;
 }
 
+/* line 113, sass/style.scss */
+#primary {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
