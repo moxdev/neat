@@ -1,0 +1,32 @@
+#masthead {
+    height: auto;
+    background-color: $black;
+    color: $white;
+
+    #logo img {
+        width: 30%;
+        float: left;
+        padding-top: 40px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .main-navigation {
+        @include outer-container(100%);
+        padding: (0 em(20px));
+
+        li {
+            float: right;
+            margin: (0 em(20px));
+            display: inline-block;
+        }
+
+        a {
+            color: $white;
+        }
+    }
+
+    .featured-image img {
+        display: block;
+    }
+}

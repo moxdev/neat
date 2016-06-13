@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'neatDBni1tf');
+define('DB_NAME', 'neatDBbeb2p');
 
 /** MySQL database username */
-define('DB_USER', 'neatDBni1tf');
+define('DB_USER', 'neatDBbeb2p');
 
 /** MySQL database password */
-define('DB_PASSWORD', '0ZFC1qfQ9z');
+define('DB_PASSWORD', '88s5xddaUe');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'koG0kV|wR8s@o!VgR~l8|ZK-lwRCsd1!RCpW]-O9te9[dS_sG1.;*TDxi6.iP2mW.');
-define('SECURE_AUTH_KEY',  'Pn7,UfM$,rI6mub{3^QXEnvc}z^QYFv@j7I{bnQ^}vFM3BF}3kQY>r@N4Bzcn7^}');
-define('LOGGED_IN_KEY',    'L9;iS]+L2mX{+M6xi6.XH+m7<XI$qE{qb{$QAM^q7>cJ$nB}nY{$Q7rY,vJ4Fvg0@');
-define('NONCE_KEY',        '<H2AjQX<u$M3AqUf6*{XEM$iqAIUfMy,n7J}cjQ<$,UBryfn7,{sVh1-|VCs-h8');
-define('AUTH_SALT',        'yA{biP*{yEP2OaDt~h19#WeLS[w~O1DpWh:-#L29pWe;+.TaH~#t9L;epW_;+AL;e');
-define('SECURE_AUTH_SALT', 'sBvk7>cNZk8[dK~oF0kV|wN4hS|1~S9tZ4G1hR|wKLiSe9[dO_pD:aH+m6#amX29P');
-define('LOGGED_IN_SALT',   'n3<bMfA{fP.yM3,vJ3nY}@YI$nB}gQ@>z}8oY[zUFzk8>cN-k4|ZkR!sN8sZ:!RCs');
-define('NONCE_SALT',       '8W[-O5pa5|ZK~sG1aO~tH;mW1~SDxh5H1eP.tH2mX;*TDxi2.PAuf3.XI.uI2mX{+');
+define('AUTH_KEY',         'FoCKOhlRVos|[k~!58G:1KOV;1KOWpGadx~_pt#]D-:59SWex+;2~#]DHa19SWpta');
+define('SECURE_AUTH_KEY',  'S-~lp_#9Dp.#ADL26DWaHPSmp_ai+~25i+*2AE{;ILTAELei+Tatx];nuy{$.<AE');
+define('LOGGED_IN_KEY',    'Pq*+a+<.A*+#HTP{63EfX6Xjf$bXi.<+<.LIy3{7MEbYvnXQbyr<^un,$<E7zr}');
+define('NONCE_KEY',        'zgo0@!40JNVrk!zZRoh~[_sk|~5:K[!81NGhZKCZRd-sOGdaxp#~d-t]#D5#~[G9W');
+define('AUTH_SALT',        'Oli*]<x.+6;A]#DPHia9WPpitPMium.*q+u<2.*6IAXTEPHeaxIBbUr$yjbn,^7$');
+define('SECURE_AUTH_SALT', 'k}44JN3cvM^dZwo|0[zs[|C4RJ4F8VNkcNJgYvozVOld~w:|w!-1[GC:|C4RdVG8V');
+define('LOGGED_IN_SALT',   '-W1atx]T9DWie+t]ph~x;#H9+u{6;LE;]HAXPbLDaTqm.+me+#*6;um.$3E7<*6M');
+define('NONCE_SALT',       'x_;i.+*62PITia+aWi*+<{73QbY7UQb$bTu^$<$<^AMI,0}7YQQcYvUQ},vny>F');
 
 /**#@-*/
 

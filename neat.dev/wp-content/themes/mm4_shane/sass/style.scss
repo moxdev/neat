@@ -29,7 +29,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Forms
 # Navigation
 	## Links
-	## Menus
+    ## Menus
+    ## Header
 # Accessibility
 # Alignments
 # Clearings
@@ -42,6 +43,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Header
 --------------------------------------------------------------*/
 @import "bourbon/bourbon";
 @import "grid-settings";
@@ -109,8 +111,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import "media/media";
 
+@import "partials/partials";
+
 // Front Page
 #primary {
     @include outer-container();
-
 }
