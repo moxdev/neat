@@ -3,30 +3,40 @@
     background-color: $black;
     color: $white;
 
-    #logo img {
-        width: 30%;
-        float: left;
-        padding-top: 40px;
-        margin-left: 30px;
-        display: block;
-    }
 
-    .main-navigation {
+    #site-navigation {
         @include outer-container(100%);
-        padding: (0 em(20px));
+        @include pad(em(20));
 
-        li {
-            float: right;
-            margin: (0 em(20px));
-            display: inline-block;
+        #logo img {
+            @include span-columns(4);
+            float: left;
+            margin-left: em(40);
+            display: block;
         }
 
-        a {
-            color: $white;
+        .menu-primary-container {
+            @include span-columns(8);
+            @include omega();
+            width: 50%;
+            float: right;
+
+            li {
+                float: right;
+                display: inline-block;
+                margin: em(20);
+                letter-spacing: 2px;
+            }
+
+            a {
+                color: $white;
+            }
         }
     }
 
     .featured-image img {
         display: block;
+        clear: both;
+        margin-left: em(40);
     }
 }

@@ -111,9 +111,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import "media/media";
 
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
 @import "partials/partials";
 
-// Front Page
-#primary {
-    @include outer-container();
-}

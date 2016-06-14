@@ -1016,7 +1016,10 @@ object {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Layout
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
 --------------------------------------------------------------*/
 /* line 1, sass/partials/_header.scss */
 #masthead {
@@ -1024,47 +1027,143 @@ object {
   background-color: #000000;
   color: #ffffff;
 }
-/* line 6, sass/partials/_header.scss */
-#masthead #logo img {
-  width: 30%;
-  float: left;
-  padding-top: 40px;
-  margin-left: 30px;
-  display: block;
-}
-/* line 14, sass/partials/_header.scss */
-#masthead .main-navigation {
+/* line 7, sass/partials/_header.scss */
+#masthead #site-navigation {
   content: "";
   display: table;
   table-layout: fixed;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1.25em;
+  padding: 1.25em;
 }
-/* line 18, sass/partials/_header.scss */
-#masthead .main-navigation li {
-  float: right;
-  margin: 0 1.25em;
-  display: inline-block;
-}
-/* line 24, sass/partials/_header.scss */
-#masthead .main-navigation a {
-  color: #ffffff;
-}
-/* line 29, sass/partials/_header.scss */
-#masthead .featured-image img {
+/* line 11, sass/partials/_header.scss */
+#masthead #site-navigation #logo img {
+  float: left;
+  display: block;
+  margin-right: 0.8403361345%;
+  width: 32.7731092437%;
+  float: left;
+  margin-left: 2.5em;
   display: block;
 }
+/* line 89, sass/neat/grid/_span-columns.scss */
+#masthead #site-navigation #logo img:last-child {
+  margin-right: 0;
+}
+/* line 18, sass/partials/_header.scss */
+#masthead #site-navigation .menu-primary-container {
+  float: left;
+  display: block;
+  margin-right: 0.8403361345%;
+  width: 66.3865546218%;
+  margin-right: 0;
+  width: 50%;
+  float: right;
+}
+/* line 89, sass/neat/grid/_span-columns.scss */
+#masthead #site-navigation .menu-primary-container:last-child {
+  margin-right: 0;
+}
+/* line 24, sass/partials/_header.scss */
+#masthead #site-navigation .menu-primary-container li {
+  float: right;
+  display: inline-block;
+  margin: 1.25em;
+  letter-spacing: 2px;
+}
+/* line 31, sass/partials/_header.scss */
+#masthead #site-navigation .menu-primary-container a {
+  color: #ffffff;
+}
+/* line 37, sass/partials/_header.scss */
+#masthead .featured-image img {
+  display: block;
+  clear: both;
+  margin-left: 2.5em;
+}
 
-/* line 117, sass/style.scss */
-#primary {
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+/* line 2, sass/partials/_footer.scss */
+.site-footer {
+  height: auto;
+  background-color: #000000;
+  padding: 1.875em 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Home Page
+--------------------------------------------------------------*/
+/* line 3, sass/partials/_homepage.scss */
+.home #content {
+  color: #666;
   content: "";
   display: table;
   table-layout: fixed;
   max-width: 75em;
   margin-left: auto;
   margin-right: auto;
+}
+/* line 7, sass/partials/_homepage.scss */
+.home #content .entry-title {
+  display: none;
+}
+/* line 11, sass/partials/_homepage.scss */
+.home #content .entry-content {
+  margin: 0;
+}
+/* line 14, sass/partials/_homepage.scss */
+.home #content .entry-content h1 {
+  text-align: center;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+## Discography Page
+--------------------------------------------------------------*/
+/* line 3, sass/partials/_discography-page.scss */
+.page-template-page-discography-page {
+  background-color: #666;
+}
+/* line 7, sass/partials/_discography-page.scss */
+.page-template-page-discography-page #content {
+  content: "";
+  display: table;
+  table-layout: fixed;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #666;
+}
+/* line 12, sass/partials/_discography-page.scss */
+.page-template-page-discography-page .album-wrapper {
+  float: left;
+  display: block;
+  margin-right: 0.8403361345%;
+  width: 24.3697478992%;
+  text-align: center;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  background-color: #000000;
+  height: 25em;
+  color: red;
+}
+/* line 89, sass/neat/grid/_span-columns.scss */
+.page-template-page-discography-page .album-wrapper:last-child {
+  margin-right: 0;
+}
+/* line 78, sass/neat/grid/_omega.scss */
+.page-template-page-discography-page .album-wrapper:nth-child(4) {
+  margin-right: 0;
+}
+/* line 23, sass/partials/_discography-page.scss */
+.page-template-page-discography-page .album-cover {
+  width: 300px;
+  height: auto;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

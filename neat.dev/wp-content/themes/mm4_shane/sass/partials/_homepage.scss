@@ -1,0 +1,19 @@
+// homepage.scss
+
+.home #content {
+    color: $grey;
+    @include outer-container();
+
+    .entry-title {
+        display: none;
+    }
+
+    .entry-content {
+        margin: 0;
+
+        & h1 {
+        text-align: center;
+        padding: 0;
+        }
+    }
+}

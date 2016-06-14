@@ -41,6 +41,7 @@ function mm4_shane_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'album-grid', 225, 150, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -150,6 +151,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Custom function for gallery.
+ */
+require get_template_directory() . '/inc/custom-photo-gallery.php';
 
 function show_featured_image() {
 	if( function_exists( 'add_theme_support' ) ) {

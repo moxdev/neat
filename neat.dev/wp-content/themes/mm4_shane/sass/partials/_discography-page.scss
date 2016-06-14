@@ -1,0 +1,28 @@
+// discography-page.scss
+
+.page-template-page-discography-page {
+    background-color: $grey;
+
+
+    #content {
+        @include outer-container();
+        background-color: $grey;
+    }
+
+    .album-wrapper {
+        @include span-columns(3);
+        @include omega(4);
+        text-align: center;
+        margin-top: em(20);
+        margin-bottom: em(20);
+        background-color: $black;
+        height: em(400);
+        color: red;
+    }
+
+    .album-cover {
+        width: 300px;
+        height: auto;
+        padding-top: 10px;
+    }
+}
