@@ -21,14 +21,16 @@ function custom_photo_gallery() {
                         <div class="album">
                             <img class="album-cover" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" />
                             <h4 class="album-title"><?php echo $title; ?></h4>
+                        </div>
+                        <div class="album-year">
                             <h5 class="album-year"><?php echo $year; ?></h5>
                         </div>
                     </div>
                     <?php endwhile; ?>
                 </section><?php
             endif;
-        } // if(function_exists( 'get_field' ) )
-    } // is_page_template
+        }
+    }
 }
 
 

@@ -27,3 +27,7 @@
 	margin: 0 0 1.5em;
 }
 
+// Centers content section for entire website
+#content {
+    @include outer-container();
+}

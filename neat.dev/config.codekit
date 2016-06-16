@@ -6026,6 +6026,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/mm4_shane\/inc\/custom-map.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/inc\/custom-map.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/mm4_shane\/inc\/custom-photo-gallery.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6091,6 +6100,72 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps-canvas.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps-canvas.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-canvas-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps-module.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps-module.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-module-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps-options.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps-options.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-options-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-canvas-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-canvas-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/min\/google-maps-canvas-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-module-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-module-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/min\/google-maps-module-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-options-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-options-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/min\/google-maps-options-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/mm4_shane\/js\/navigation.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6136,6 +6211,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/page-discography-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/page-map-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/page-map-page.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8099,6 +8183,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/wp-content\/themes\/mm4_shane\/sass\/partials\/_content.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 1,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/sass\/partials\/_content.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/sass\/css\/_content.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/wp-content\/themes\/mm4_shane\/sass\/partials\/_discography-page.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 1,
@@ -8156,6 +8256,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/sass\/partials\/_homepage.scss",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/sass\/css\/_homepage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/sass\/partials\/_map-page.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 1,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/sass\/partials\/_map-page.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/sass\/css\/_map-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

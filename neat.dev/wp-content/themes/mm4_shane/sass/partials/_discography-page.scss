@@ -1,12 +1,10 @@
 // discography-page.scss
 
 .page-template-page-discography-page {
-    background-color: $grey;
-
+    background-color: $black;
 
     #content {
-        @include outer-container();
-        background-color: $grey;
+        background-color: $black;
     }
 
     .album-wrapper {
@@ -16,13 +14,24 @@
         margin-top: em(20);
         margin-bottom: em(20);
         background-color: $black;
-        height: em(400);
-        color: red;
+        height: em(450);
+        color: $red;
     }
 
     .album-cover {
         width: 300px;
         height: auto;
         padding-top: 10px;
+    }
+
+    .album-title {
+        font-family: $font-maiden;
+        font-size: large;
+        letter-spacing: 1px;
+        height: 100px;
+    }
+
+    .album-year {
+        bottom: 0;
     }
 }

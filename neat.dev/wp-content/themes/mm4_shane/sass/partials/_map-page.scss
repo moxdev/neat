@@ -1,0 +1,15 @@
+// map-page.scss
+.page-template-page-map-page {
+    background-color: $black;
+
+    #content {
+        background-color: $black;
+    }
+
+    #google-map-canvas {
+        width:1000px;
+        height:680px;
+        background-color:#cccccc;
+        margin: em(50px);
+    }
+}

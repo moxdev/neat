@@ -1,0 +1,10 @@
+// content.scss
+
+.entry-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: $red;
+    text-shadow: 1px 1px 1px $white, -1px -1px 1px $white, -1px 1px 1px $white, 1px -1px 1px $white;
+    letter-spacing: 3px;
+    // font-family: $font-maiden;
+}
