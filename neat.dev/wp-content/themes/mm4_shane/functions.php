@@ -123,11 +123,11 @@ function mm4_shane_scripts() {
 
 	wp_enqueue_script( 'mm4_google-maps', 'http://maps.google.com/maps/api/js?sensor=false', array(), null, true );
 
-	wp_enqueue_script( 'mm4_google-maps-options', get_template_directory_uri() . '/js/min/google-maps-options-min.js', array( 'mm4_google-maps' ), null, true );
+	wp_enqueue_script( 'mm4_google-maps-options', get_template_directory_uri() . '/js/google-maps-options.js', array( 'mm4_google-maps' ), null, true );
 
-	wp_enqueue_script( 'mm4_google-maps-module', get_template_directory_uri() . '/js/min/google-maps-module-min.js', array( 'mm4_google-maps', 'mm4_google-maps-options' ), null, true );
+	wp_enqueue_script( 'mm4_google-maps-module', get_template_directory_uri() . '/js/google-maps-module.js', array( 'mm4_google-maps', 'mm4_google-maps-options' ), null, true );
 
-	wp_enqueue_script( 'mm4_shane-google-map-canvas', get_template_directory_uri() . '/js/min/google-maps-canvas-min.js', array( 'mm4_google-maps', 'mm4_google-maps-options', 'mm4_google-maps-module' ), null, true );
+	wp_enqueue_script( 'mm4_shane-google-map-canvas', get_template_directory_uri() . '/js/google-maps-canvas.js', array( 'mm4_google-maps-options', 'mm4_google-maps-module' ), null, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
