@@ -121,13 +121,18 @@ function mm4_shane_scripts() {
 
 	wp_enqueue_script( 'mm4_shane-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'mm4_google-maps', 'http://maps.google.com/maps/api/js?sensor=false', array(), null, true );
+	wp_enqueue_script( 'mm4_google-maps-api', 'http://maps.google.com/maps/api/js?sensor=false', array(), null, true );
 
-	wp_enqueue_script( 'mm4_google-maps-options', get_template_directory_uri() . '/js/google-maps-options.js', array( 'mm4_google-maps' ), null, true );
+	wp_enqueue_script( 'mm4_google-maps-cluster', get_template_directory_uri() . '/js/google-maps/google-maps-cluster-library/google-maps-cluster-library.js', array( 'mm4_google-maps-api'  ), null, true );
 
-	wp_enqueue_script( 'mm4_google-maps-module', get_template_directory_uri() . '/js/google-maps-module.js', array( 'mm4_google-maps', 'mm4_google-maps-options' ), null, true );
+	wp_enqueue_script( 'mm4_google-maps-marker', get_template_directory_uri() . '/js/google-maps/google-maps-marker-module.js', array(), null, true );
 
-	wp_enqueue_script( 'mm4_shane-google-map-canvas', get_template_directory_uri() . '/js/google-maps-canvas.js', array( 'mm4_google-maps-options', 'mm4_google-maps-module' ), null, true );
+	wp_enqueue_script( 'mm4_google-maps-options', get_template_directory_uri() . '/js/google-maps/google-maps-options-module.js', array( 'mm4_google-maps-api', 'mm4_google-maps-cluster' ), null, true );
+
+	wp_enqueue_script( 'mm4_google-maps-builder', get_template_directory_uri() . '/js/google-maps/google-maps-builder-module.js', array( 'mm4_google-maps-cluster', 'mm4_google-maps-marker', 'mm4_google-maps-options' ), null, true );
+
+
+	wp_enqueue_script( 'mm4_shane-google-map-canvas', get_template_directory_uri() . '/js/google-maps/google-maps-canvas-initializer.js', array( 'mm4_google-maps-options', 'mm4_google-maps-builder' ), null, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

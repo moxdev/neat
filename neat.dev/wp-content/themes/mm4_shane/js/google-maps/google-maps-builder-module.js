@@ -2,10 +2,16 @@
 //
 (function() {
 
-    // Uses GM API to set the canvas options
+    // Uses GMaps API to set the canvas options
     var Map = (function() {
-        function Map(element, options){
+        function Map(element, options) {
+            // Creates the gmaps canvas (with elements, options from 'google-maps-options.js' file)
             this.gMap = new google.maps.Map(element, options);
+            // Creates a new list for map markers
+            this.markers = MarkerList.create();
+            // Checks to see if map cluster being used
+                // If cluster is being used creates a new cluster
+                this.markerClusterer = new MarkerClusterer(this.gMap, []);
         }
         // Allows properties to be added to map canvas ( example "map.zoom(10)" )
         // https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -18,7 +24,7 @@
                     return this.gMap.getZoom();
                 }
             },
-            // sets events
+            // sets events (such as on click)
             // https://developers.google.com/maps/documentation/javascript/reference#Map
             _on: function(options) {
                 var self = this;
@@ -26,22 +32,32 @@
                     options.callback.call(self, e);
                 });
             },
-            // sets the marker
+            // Function for adding marker to gmap
             // https://developers.google.com/maps/documentation/javascript/reference#Marker
             addMarker: function(options) {
-                var marker;
+                // Sets the position for marker
+                var marker,
+                    self = this;
                 options.position = {
                     lat: options.lat,
                     lng: options.lng
                 }
+                // Creates a new marker
                 marker = this._createMarker(options);
-                    if(options.event) {
-                        this._on({
-                            obj: marker,
-                            event: options.event.name,
-                            callback: options.event.callback
+                this.markerClusterer.addMarker(marker);
+                    // Adds marker to array
+                    this._addMarker(marker);
+                    // Adds on click event for marker
+                    if(options.events) {
+                        options.events.forEach(function(event){
+                            self._on({
+                                obj: marker,
+                                event: event.name,
+                                callback: event.callback
+                            });
                         });
                     }
+                    // Adds content for on click event marker
                     if(options.content) {
                         this._on({
                             obj: marker,
@@ -56,7 +72,23 @@
                     }
                     return marker;
             },
-            // creates the marker
+            // Find a marker by parameter
+            findBy: function(callback) {
+                return this.markers.find(callback);
+            },
+            // Remove marker using the "action" param which loops through and sets the corresponding marker to null
+            removeBy: function(callback) {
+                this.markers.find(callback, function(markers){
+                    markers.forEach(function(marker) {
+                        marker.setMap(null);
+                    });
+                });
+            },
+            // Private function adds marker to the "markers" array
+            _addMarker: function(marker){
+                this.markers.push(marker);
+            },
+            // Private function creates a new gmaps marker
             _createMarker: function(options) {
                 options.map = this.gMap;
                 return new google.maps.Marker(options);

@@ -6100,67 +6100,166 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/google-maps-canvas.js": {
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-builder-module.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps-canvas.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-canvas-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-builder-module.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-builder-module-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/google-maps-module.js": {
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-canvas-initializer.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps-module.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-module-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-canvas-initializer.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-canvas-initializer-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/google-maps-options.js": {
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps-options.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-options-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-cluster-library-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-canvas-min.js": {
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/google-maps-cluster-library.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-canvas-min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/min\/google-maps-canvas-min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/google-maps-cluster-library.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/min\/google-maps-cluster-library-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-module-min.js": {
-		"fileType": 64,
-		"ignore": 1,
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m1.png": {
+		"fileType": 32768,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-module-min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/min\/google-maps-module-min-min.js",
+		"initialSize": 3003,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m1.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3259,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3956,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5705,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m4.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6839,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m5.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-cluster-library\/images\/m5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-marker-module.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-marker-module.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-marker-module-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-options-min.js": {
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-options-module.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-options-module.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-options-module-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-builder-module-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/google-maps-options-min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/min\/min\/google-maps-options-min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-builder-module-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/min\/google-maps-builder-module-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-canvas-initializer-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-canvas-initializer-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/min\/google-maps-canvas-initializer-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-cluster-library-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-cluster-library-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/min\/google-maps-cluster-library-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-options-module-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-options-module-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/min\/google-maps-options-module-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

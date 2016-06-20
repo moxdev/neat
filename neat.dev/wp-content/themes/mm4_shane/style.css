@@ -1159,7 +1159,7 @@ object {
   margin-bottom: 1.25em;
   background-color: #000000;
   height: 28.125em;
-  color: #8E2323;
+  color: #EE3B3B;
 }
 /* line 89, sass/neat/grid/_span-columns.scss */
 .page-template-page-discography-page .album-wrapper:last-child {
@@ -1213,7 +1213,7 @@ object {
 .entry-title {
   text-align: center;
   text-transform: uppercase;
-  color: #8E2323;
+  color: #EE3B3B;
   text-shadow: 1px 1px 1px #ffffff, -1px -1px 1px #ffffff, -1px 1px 1px #ffffff, 1px -1px 1px #ffffff;
   letter-spacing: 3px;
 }
