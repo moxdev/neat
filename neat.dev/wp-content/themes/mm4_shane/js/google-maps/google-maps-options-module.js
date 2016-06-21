@@ -7,6 +7,7 @@ var MapOptionsModule = (function () {
             lat: 51.5619461,
             lng: -0.0306486
         },
+        disableDefaultUI: false,
         scrollwheel: true,
         mapTypeId:google.maps.MapTypeId.ROADMAP,
         zoomControlOptions: {
@@ -16,11 +17,15 @@ var MapOptionsModule = (function () {
         panControlOptions: {
             postion: google.maps.ControlPosition.LEFT_BOTTOM
         },
+        // Options for setting MarkerCLusterer styles
         cluster: {
             options: {
-                imagePath: '/js/google-maps/google-maps-cluster-library/images',
                 styles: [{
-
+                    url: '/wp-content/themes/mm4_shane/js/google-maps/google-maps-cluster-library/images/m1.png',
+                    height: 56,
+                    width: 55,
+                    textColor: '#ff0',
+                    textSize: 16
                 }]
             }
         }

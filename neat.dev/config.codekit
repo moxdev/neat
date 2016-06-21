@@ -20,6 +20,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/rename\/m1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3003,
+		"inputAbbreviatedPath": "\/rename\/m1.png",
+		"outputAbbreviatedPath": "\/rename\/m1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rename\/m2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3259,
+		"inputAbbreviatedPath": "\/rename\/m2.png",
+		"outputAbbreviatedPath": "\/rename\/m2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rename\/m3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3956,
+		"inputAbbreviatedPath": "\/rename\/m3.png",
+		"outputAbbreviatedPath": "\/rename\/m3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rename\/m4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5705,
+		"inputAbbreviatedPath": "\/rename\/m4.png",
+		"outputAbbreviatedPath": "\/rename\/m4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/rename\/m5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6839,
+		"inputAbbreviatedPath": "\/rename\/m5.png",
+		"outputAbbreviatedPath": "\/rename\/m5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-activate.php": {
 		"fileType": 8192,
 		"ignore": 0,

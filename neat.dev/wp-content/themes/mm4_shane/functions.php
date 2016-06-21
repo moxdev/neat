@@ -129,7 +129,7 @@ function mm4_shane_scripts() {
 
 	wp_enqueue_script( 'mm4_google-maps-options', get_template_directory_uri() . '/js/google-maps/google-maps-options-module.js', array( 'mm4_google-maps-api', 'mm4_google-maps-cluster' ), null, true );
 
-	wp_enqueue_script( 'mm4_google-maps-builder', get_template_directory_uri() . '/js/google-maps/google-maps-builder-module.js', array( 'mm4_google-maps-cluster', 'mm4_google-maps-marker', 'mm4_google-maps-options' ), null, true );
+	wp_enqueue_script( 'mm4_google-maps-builder', get_template_directory_uri() . '/js/google-maps/google-maps-builder-module.js', array( 'mm4_google-maps-api', 'mm4_google-maps-cluster', 'mm4_google-maps-marker', 'mm4_google-maps-options' ), null, true );
 
 
 	wp_enqueue_script( 'mm4_shane-google-map-canvas', get_template_directory_uri() . '/js/google-maps/google-maps-canvas-initializer.js', array( 'mm4_google-maps-options', 'mm4_google-maps-builder' ), null, true );

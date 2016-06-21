@@ -11,7 +11,9 @@
             this.markers = MarkerList.create();
             // Checks to see if map cluster being used
                 // If cluster is being used creates a new cluster
-                this.markerClusterer = new MarkerClusterer(this.gMap, []);
+            if(options.cluster) {
+                this.markerClusterer = new MarkerClusterer(this.gMap, [], options.cluster.options);
+            }
         }
         // Allows properties to be added to map canvas ( example "map.zoom(10)" )
         // https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -28,7 +30,7 @@
             // https://developers.google.com/maps/documentation/javascript/reference#Map
             _on: function(options) {
                 var self = this;
-                google.maps.event.addListener(options.obj, options.event, function(e) {
+                google.maps.event.addListener(options.obj, options.events, function(e) {
                     options.callback.call(self, e);
                 });
             },
@@ -44,24 +46,18 @@
                 }
                 // Creates a new marker
                 marker = this._createMarker(options);
-                this.markerClusterer.addMarker(marker);
-                    // Adds marker to array
-                    this._addMarker(marker);
-                    // Adds on click event for marker
+                if(this.markerClusterer) {
+                    this.markerClusterer.addMarker(marker);
+                }
+                this._addMarker(marker);
                     if(options.events) {
-                        options.events.forEach(function(event){
-                            self._on({
-                                obj: marker,
-                                event: event.name,
-                                callback: event.callback
-                            });
-                        });
+                        this._attachEvents(marker, options.events);
                     }
                     // Adds content for on click event marker
                     if(options.content) {
                         this._on({
                             obj: marker,
-                            event: 'click',
+                            events: 'click',
                             callback: function() {
                                 var infoWindow = new google.maps.InfoWindow({
                                     content: options.content
@@ -70,7 +66,17 @@
                             }
                         })
                     }
-                    return marker;
+                return marker;
+            },
+            _attachEvents: function(obj, events) {
+                var self = this;
+                events.forEach(function(event) {
+                    self._on({
+                        obj: obj,
+                        events: event.name,
+                        callback: event.callback
+                    });
+                });
             },
             // Find a marker by parameter
             findBy: function(callback) {
@@ -78,15 +84,21 @@
             },
             // Remove marker using the "action" param which loops through and sets the corresponding marker to null
             removeBy: function(callback) {
-                this.markers.find(callback, function(markers){
+                var self = this;
+                self.markers.find(callback, function(markers) {
                     markers.forEach(function(marker) {
-                        marker.setMap(null);
+                        // If using MarkerClusterer must be removed from the MC before it can be set to null
+                        if(self.markerClusterer) {
+                            self.markerClusterer.removeMarker(marker);
+                        }else {
+                            marker.setMap(null);
+                        }
                     });
                 });
             },
             // Private function adds marker to the "markers" array
-            _addMarker: function(marker){
-                this.markers.push(marker);
+            _addMarker: function(marker) {
+                this.markers.add(marker);
             },
             // Private function creates a new gmaps marker
             _createMarker: function(options) {
