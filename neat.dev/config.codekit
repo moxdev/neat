@@ -6155,12 +6155,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-builder-module.js": {
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/gmaps-canvas-init-backup-b4-jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-builder-module.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-builder-module-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/gmaps-canvas-init-backup-b4-jquery.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/gmaps-canvas-init-backup-b4-jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-builder-library.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/google-maps-builder-library.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-builder-library-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6276,6 +6287,50 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/jquery-ui-google-maps-widget.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/jquery-ui-google-maps-widget.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/jquery-ui-google-maps-widget-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/jquery-ui-google-maps-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/jquery-ui-google-maps-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/min\/jquery-ui-google-maps-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/jquery-ui-google-maps-widget-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/jquery-ui-google-maps-widget-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/jquery-ui-library\/min\/min\/jquery-ui-google-maps-widget-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/gmaps-canvas-init-backup-b4-jquery-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/gmaps-canvas-init-backup-b4-jquery-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/min\/gmaps-canvas-init-backup-b4-jquery-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-builder-module-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -6309,6 +6364,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-options-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-options-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/min\/google-maps-options-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/mm4_shane\/js\/google-maps\/min\/google-maps-options-module-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -6330,6 +6396,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/mm4_shane\/js\/script-backup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/mm4_shane\/js\/script-backup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/themes\/mm4_shane\/js\/skip-link-focus-fix.js": {
 		"fileType": 64,
