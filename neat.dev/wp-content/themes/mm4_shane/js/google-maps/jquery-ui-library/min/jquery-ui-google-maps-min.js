@@ -1,1 +1,0 @@
-!function(){$.widget("custom.mapWidget",{options:{},_create:function(){console.log("hello");var t=this.element[0],n=this.options;this.map=Map.create(t,n),console.log(Map)},_refresh:function(){},addMarker:function(t){return this.map.addMarker(t)},_destroy:function(){},_setOptions:function(){},_setOption:function(t,n){this._super(t,n)}})}();

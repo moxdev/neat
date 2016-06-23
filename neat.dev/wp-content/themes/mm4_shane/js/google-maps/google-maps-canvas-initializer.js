@@ -1,35 +1,33 @@
-// Initializes the Google Map Canvas
-function mm4_google_maps_initializer() {
-    var element = document.getElementById('google-map-canvas'),
-        options = MapOptionsModule.settings,
-        map = Map.create(element, options);
+(function() {
+     // Initializes the Google Map Canvas
+    var MapCanvas = (function() {
+        var element = document.getElementById('google-map-canvas'),
+            options = MapOptionsModule.settings,
+            map = Map.create(element, options);
 
-    map.zoom(10);
+        map.zoom(10);
 
-    var marker1 = map.addMarker({
-        id: 1,
-        lat: 51.5619461,
-        lng: -0.0306486,
-        draggable: true,
-        icon: 'https://s3.amazonaws.com/sg101.forum.photos/xWvhz0uPQNyCTyN3L4S_fQ.gif',
-        content: 'Iron Maiden was born here in 1978'
-    });
-
-    for(var i = 1; i < 40; i++) {
-        map.addMarker({
-            id: i++,
-            lat: 51.56194612 + Math.random(),
-            lng: -0.03064867 + Math.random(),
+        var marker1 = map.addMarker({
+            id: 1,
+            lat: 51.5619461,
+            lng: -0.0306486,
             draggable: true,
             icon: 'https://s3.amazonaws.com/sg101.forum.photos/xWvhz0uPQNyCTyN3L4S_fQ.gif',
-            content: 'Random places in UK #' + i
+            content: 'Iron Maiden was born here in 1978'
         });
-    } // End for loop
 
-} // End
-
-mm4_google_maps_initializer();
-
+        for (var i = 1; i < 40; i++) {
+            map.addMarker({
+                id: i++,
+                lat: 51.56194612 + Math.random(),
+                lng: -0.03064867 + Math.random(),
+                draggable: true,
+                icon: 'https://s3.amazonaws.com/sg101.forum.photos/xWvhz0uPQNyCTyN3L4S_fQ.gif',
+                content: 'Random places in UK #' + i
+            });
+        }
+    }()); // End MapCanvas
+}());
 /*
 ========================================
 * Easily find any marker by id using this function
@@ -53,24 +51,3 @@ Example:
     // Will remove marker with id:2 and console log it
 ===========================================
 */
-
-
-// var marker3 = map.addMarker({
-//         id: 3,
-//         lat: 51.5058372,
-//         lng: -0.1899126,
-//         draggable: true,
-//         icon: 'https://s3.amazonaws.com/sg101.forum.photos/xWvhz0uPQNyCTyN3L4S_fQ.gif',
-//         events: [{
-//             name: 'click',
-//             callback: function(e, marker) {
-//                 console.log(e, marker);
-//             }
-//         }, {
-//             name: 'dragend',
-//             callback: function() {
-//                 alert("God Save the Queen!");
-//                 }
-//         }],
-//         content: 'God Save the Queen!'
-//     });

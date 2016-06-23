@@ -27,10 +27,8 @@ get_header(); ?>
                     comments_template();
                 endif;
 
-            endwhile; // End of the loop.
-
-                    mm4_show_google_map_canvas(); ?>
-
+            endwhile; // End of the loop. ?>
+            <div id="google-map-canvas"></div><!-- map-div -->
         </main><!-- #main -->
     </div><!-- #primary -->
 
